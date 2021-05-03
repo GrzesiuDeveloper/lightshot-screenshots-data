@@ -1,0 +1,23 @@
+{
+    "name": "prntsc/uploader",
+    "description": "Upload screenshots to Lightshot (prnt.sc).",
+    "type": "library",
+    "keywords": ["screenshots", "uploader", "prntsc", "lightshot"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "chipslays"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Prntsc\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "require": {
+        "j0k3r/php-imgur-api-client": "^3.0"
+    }
+}
